@@ -1,5 +1,17 @@
 @import "semantic-ui";
 
+* {
+ font-family: 'Abel', sans-serif;
+}
+
+.item {
+  text-decoration: none;
+}
+h1 {
+  font-family: inherit;
+  font-size: 3rem;
+}
+
 .chatbox {
   height: 450px;
   box-shadow: inset 2px 2px 7px rgba( 0, 0, 0, 0.5) !important;
