@@ -1,10 +1,9 @@
 require_relative 'boot'
-
 require 'rails/all'
 
-require 'chat_backend'
 
-config.middleware.use MessageMe::ChatBackend
+
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
