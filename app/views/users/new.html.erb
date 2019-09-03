@@ -1,0 +1,25 @@
+<h2 class="ui center aligned icon header">
+  <i class="circular users icon"></i>
+ Ready to sign up
+</h2>
+
+
+
+
+
+
+<div class="ui inverted  segment">
+  <%= form_for(@user, :html => {class:"ui inverted form", role: "form"}) do |f| %>
+    <div class="two fields">
+      <div class="field">
+        <%= f.label :username %>
+          <%= f.text_field :username, placeholder: "username" %>
+      </div>
+      <div class="field">
+        <%= f.label :password %>
+          <%= f.text_field :password, placeholder: "password" %>
+      </div>
+    </div>
+    <%= f.submit "Sign up", class: "ui purple button" %>
+  <% end %>
+</div>
