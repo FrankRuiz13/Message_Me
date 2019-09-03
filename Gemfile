@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.3'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'faye-websocket'
+gem 'redis'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'bcrypt', '~> 3.1.7'
@@ -63,5 +65,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg'
-  gem 'redis'
 end
