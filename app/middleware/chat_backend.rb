@@ -2,10 +2,10 @@ require 'faye/websocket'
 require 'thread'
 require 'redis'
 
-module ChatDemo
+module MessageMe
   class ChatBackend
 
-    CHANNEL        = "chat-demo"
+    CHANNEL        = "chatroom"
 
     def initialize(app)
 
